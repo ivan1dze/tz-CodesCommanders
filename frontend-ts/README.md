@@ -1,4 +1,3 @@
-A React application using TypeScript.
 Instructions for running the app locally and with Docker.
 
 ## Prerequisites

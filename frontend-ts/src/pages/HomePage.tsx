@@ -1,6 +1,7 @@
 import React from 'react';
 import { useGetPostsQuery } from '../store/apiSlice';
 import PostGrid from '../components/PostGrid';
+import Header from '../components/Header';
 
 const HomePage = () => {
     const { data: posts, error, isLoading } = useGetPostsQuery({});
@@ -10,7 +11,7 @@ const HomePage = () => {
 
     return (
         <div>
-            <h1>Best Application</h1>
+            <Header />
             {posts && <PostGrid posts={posts} />}
         </div>
     );

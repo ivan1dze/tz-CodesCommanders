@@ -9,11 +9,13 @@ Instructions for running the app locally and with Docker.
 
 1. **Clone the repo:**
 
-   `git clone https://github.com/yourusername/your-repository.git`
+   `https://github.com/ivan1dze/tz-CodesCommanders.git`
 
-   `cd your-repository`
+   `cd tz-CodesCommanders`
 
-2. Install dependencies:
+   `cd frontend-ts`
+
+3. Install dependencies:
 
    `npm install`
 
